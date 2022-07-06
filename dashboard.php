@@ -12,21 +12,13 @@
 <html lang="pt-BR">
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 	<title>CONTROLE DE CLIENTES INADIPLENTES</title>
 
 	<style type="text/css">
-		body{
-			background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
-			color: #FFFFFF;
-			text-align: center;
-		}
-		.table-bg{
-			background: rgba(0,0,0,0.3);
-			border-radius: 15px 15px 0px 0px;
-		}
+		
 	</style>
 </head>
 <body>
