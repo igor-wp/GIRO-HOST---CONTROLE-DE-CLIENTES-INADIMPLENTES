@@ -1,9 +1,21 @@
 <?php
-	print_r($_REQUEST);
 	if(isset($_POST['submit']) && !empty($_POST['user']) && !empty($_POST['pass'])){
 
+		//Acessa
+		include_once('config.php');
+		$email = $_POST['user'];
+		$senha = $_POST['pass'];
+
+		$sql = "SELECT * FROM login WHERE email = '$email' and senha = md5('$senha')";
+		$result = $conexao->query($sql);
+		if(mysqli_num_rows($result)<1){
+			header('Location: index.php');
+		}else{
+			header('Location: sistema.php');
+		}
+		
 	}else{
-		// header('Location: tela-de-login.php');
+		header('Location: index.php');
 	}
 ?>
 
