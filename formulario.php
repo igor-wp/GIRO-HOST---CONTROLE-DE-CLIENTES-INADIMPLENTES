@@ -1,4 +1,8 @@
 <!-- https://www.youtube.com/watch?v=QOeDE7nPDq0&list=PLSHNk_yA5fNjoIRNHV-3FprsN3NWPcnnK&index=3 -->
+
+
+
+
 <?php
 	if(isset($_POST['submit'])){
 
@@ -28,7 +32,7 @@
 <body>
 	<div class="conteudo" id="conteudo">
 		<div class="wrap">
-			<form class="formulario" id="formulario" method="POST" action="index.php"><br>
+			<form class="formulario" id="formulario" method="POST" action="formulario.php"><br>
 				<fieldset>
 					<legend><b>CONTROLE DE CLIENTES INADIMPLENTES</b></legend>
 					<br>
